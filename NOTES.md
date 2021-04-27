@@ -1,13 +1,14 @@
 # Procesas
 
-- [ ]pradine failu struktura
+- [x]pradine failu struktura
     - index.htkm
     - .gitignore
     - main.css (bet ne butinai vienintelis)
-- [ ] paviesinti projekta per github pages (gausim url)
-- [ ] readme.md
+- [x] paviesinti projekta per github pages (gausim url)
+- [x] readme.md
     - skirta aprasyti kas, ka ir kodel daro
-- [ ] atlikti dizaino analize
+    - iterpti nuoroda, kur musu kodas gali buti pamatytas
+- [x] atlikti dizaino analize
 - [ ] surasyti html
 - [ ] issikirpti nuotraukas ir jas naudoti
     - panaudoti reliatyvu kelia
