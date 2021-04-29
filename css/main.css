@@ -17,9 +17,10 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  filter: blur(20px)
+  filter: blur(20px);
 }
-container {
+
+.container {
   display: inline-block;
   width: 800px;
   position: absolute;
