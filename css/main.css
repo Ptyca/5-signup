@@ -11,10 +11,21 @@ body {
   background-color: #00b4d0;
 }
 
-.container {
+.background {
+  background-image: url(../img/fonas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  filter: blur(20px)
+}
+container {
   display: inline-block;
   width: 800px;
-  margin: 100px calc((100% - 800px) / 2) 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left-column {
@@ -25,13 +36,21 @@ body {
   margin-top: 20px;
   color: #fff;
   background-image: url(../img/fonas.jpg);
-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
 }
 
 .main-title {
 }
 
 .bottom-links {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
 
 }
 
@@ -45,7 +64,7 @@ background-size: cover;
 .right-column {
   width: 60%;
   padding: 60px;
-  float: left;
+  float: right;
   background-color: #fff;
   position: relative;
 }
